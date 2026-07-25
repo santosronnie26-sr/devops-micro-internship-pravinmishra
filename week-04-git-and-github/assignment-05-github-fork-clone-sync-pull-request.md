@@ -128,13 +128,13 @@ https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/390
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws-share-7486692678902931456-KV01/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8
 
 ---
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-Add your screenshot here.
+![ss10](./screenshots/W4-SS-A5/W4-A5-SS-10.png).
 
 ---
 

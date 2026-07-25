@@ -281,8 +281,9 @@ Publish a LinkedIn post summarizing what you built and what you learned about co
 
 #### LinkedIn Post URL
 
-Add your LinkedIn post URL here...
+https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws-ugcPost-7486693750480588801-yJ53/?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8
 
+![ss10](./screenshots/W4-SS-A6/W4-A6-SS-10.png).
 ---
 
 ## Key Learnings
@@ -333,7 +334,7 @@ https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra
 - [✓] `/pr-ready` re-run showing a clean report and drafted PR title/description
 - [✓] Pull Request opened using the AI draft as a starting point, with your own fork as the base repository (not upstream), PR link included
 - [✓] Agentic Loop mapping (Task 7) completed in your own words
-- [] LinkedIn post published and URL submitted
+- [✓] LinkedIn post published and URL submitted
 - [✓] All required screenshots added
 - [✓] GitHub repository URL provided
 
