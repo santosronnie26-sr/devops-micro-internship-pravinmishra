@@ -149,7 +149,7 @@ https://www.linkedin.com/posts/ronnie-santos-131856184_devops-cloudcomputing-aws
 
 ## Fork URL
 
-Paste your fork URL here:
+
 
 https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra.git
 
@@ -164,7 +164,7 @@ https://github.com/santosronnie26-sr/devops-micro-internship-pravinmishra.git
 - [✓] Local default branch synchronized with `upstream/main`, feature branch rebased and pushed (Screenshots 6–7)
 - [✓] Pull Request opened against the correct upstream repository and branch (Screenshots 8–9)
 - [✓] Fork URL and Pull Request URL included
-- [ ] LinkedIn post published and URL submitted
+- [✓] LinkedIn post published and URL submitted
 - [✓] No PAT, password, private key, or authentication secret exposed
 
 ---
