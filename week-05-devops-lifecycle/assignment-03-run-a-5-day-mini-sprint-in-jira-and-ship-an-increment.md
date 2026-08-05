@@ -58,7 +58,7 @@ Add the required footer text (`Pravin Mishra Portfolio v1.0 — Deployed on <DD 
 
 #### Screenshot 6 — Jira Story comment showing the Day 1 Daily Scrum update
 
-Add your screenshot here.
+![ss6](./screenshots/W5-SS-A3/W5-A3-SS-6.png).
 
 ---
 
@@ -72,25 +72,25 @@ Update the footer so the deployment date is generated automatically (or updated 
 
 #### Screenshot 7 — Code editor showing the footer and date logic or deployment-time template snippet
 
-Add your screenshot here.
+![ss7](./screenshots/W5-SS-A3/W5-A3-SS-7.png).
 
 ---
 
 #### Screenshot 8 — EC2 browser view showing the updated footer with the current date
 
-Add your screenshot here.
+![ss8](./screenshots/W5-SS-A3/W5-A3-SS-8.png).
 
 ---
 
 #### Screenshot 9 — README snippet documenting the footer and date behavior
 
-Add your screenshot here.
+![ss9](./screenshots/W5-SS-A3/W5-A3-SS-9.png).
 
 ---
 
 #### Screenshot 10 — Jira Story comment showing the Day 2 Daily Scrum update
 
-Add your screenshot here.
+![ss10](./screenshots/W5-SS-A3/W5-A3-SS-10.png).
 
 ---
 
