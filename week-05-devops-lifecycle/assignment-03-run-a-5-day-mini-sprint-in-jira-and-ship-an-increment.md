@@ -104,19 +104,19 @@ Improve the footer's spacing, contrast, and readability, then validate it at bot
 
 #### Screenshot 11 — Desktop EC2 view showing the polished footer
 
-Add your screenshot here.
+![ss11](./screenshots/W5-SS-A3/W5-A3-SS-11.png).
 
 ---
 
 #### Screenshot 12 — Mobile responsive view showing the footer remains readable
 
-Add your screenshot here.
+![ss12](./screenshots/W5-SS-A3/W5-A3-SS-12.png).
 
 ---
 
 #### Screenshot 13 — Jira Story comment showing the Day 3 Daily Scrum update
 
-Add your screenshot here.
+![ss13](./screenshots/W5-SS-A3/W5-A3-SS-13.png).
 
 ---
 
