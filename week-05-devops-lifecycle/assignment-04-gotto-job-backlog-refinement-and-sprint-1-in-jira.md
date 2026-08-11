@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-Add your screenshot here.
+![ss1](./screenshots/W5-SS-A4/W5-A4-SS-1.png).
 
 ---
 
@@ -42,7 +42,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
-Add your screenshot here.
+![ss2](./screenshots/W5-SS-A4/W5-A4-SS-2.png).
 
 ---
 
@@ -56,7 +56,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-3.png).
 
 ---
 
@@ -70,13 +70,14 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-4.png).
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-5-1.png).
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-5-2.png).
 
 ---
 
@@ -90,7 +91,7 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-6.png).
 
 ---
 
@@ -98,7 +99,29 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+S1 – Hero tagline (1 point)
+Single text change in one element with no testing or logic required — straightforward one-line edit.
+
+S2 – Button colour (1 point)
+CSS-only change affecting multiple buttons but requiring no layout adjustments or conditional logic — one property update across the stylesheet.
+
+S3 – Job card typography (2 points)
+Font changes require verification across multiple screen sizes to ensure responsive layout remains intact — adds testing overhead beyond the code change.
+
+S4 – REMOTE badge (2 points)
+Requires conditional display logic (show only for remote jobs) in addition to markup, adding complexity beyond a static text or style update.
+
+S5 – Posted on date (1 point)
+Static text addition with no layout impact, conditional logic, or cross-browser testing needed.
+
+S6 – Search labels (2 points)
+Multiple label and placeholder updates across the form require consistent testing to verify all fields display correctly and behavior remains functional.
+
+S7 – Job Detail "Apply Now" Button (1 point)
+Single button element with a static link — no conditional rendering, dynamic logic, or interaction state management required.
+
+S8 – Footer Trust Links (1 point)
+Pure HTML additions requiring no styling adjustments, logic, or testing beyond confirming link targets work.
 
 ---
 
@@ -112,13 +135,13 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-7.png).
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-8.png).
 
 ---
 
@@ -132,7 +155,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A4/W5-A4-SS-8.png).
 
 ---
 
