@@ -211,13 +211,13 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+https://www.linkedin.com/posts/ronnie-santos-131856184_devops-agile-scrum-activity-7491525462838419459-DCI3?utm_source=share&utm_medium=member_desktop&rcm=ACoAACuNXjUByrzjuiXUdcAXl7CkJp7IYHpF-S8
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+![ss](./screenshots/W5-SS-A3/W5-A3-SS-17.png).
 
 ---
 
@@ -240,7 +240,7 @@ Add your screenshot here.
 - [✓] Task 7: Burndown Chart opened (Screenshot 9)
 - [✓] Task 8: One UI-only increment implemented, committed, deployed, and verified (Screenshots 10–12)
 - [✓] Task 9: Retro comment with one Scrum pillar and one Scrum value (Screenshot 13)
-- [ ] Task 10: Mandatory LinkedIn post published with the live URL, backlog refinement, Sprint planning, one shipped increment, proof, and Screenshot 14
+- [✓] Task 10: Mandatory LinkedIn post published with the live URL, backlog refinement, Sprint planning, one shipped increment, proof, and Screenshot 14
 - [✓] Full Name visible in required screenshots
 - [✓] No sensitive data exposed
 
