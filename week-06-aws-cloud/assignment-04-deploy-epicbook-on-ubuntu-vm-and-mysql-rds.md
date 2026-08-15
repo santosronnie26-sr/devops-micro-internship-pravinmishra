@@ -111,13 +111,13 @@ Create a private MySQL RDS instance in `epicbook-vpc` using a DB Subnet Group ov
 
 #### Screenshot 11 — RDS instance summary showing Publicly accessible: No
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-11.png).
 
 ---
 
 #### Screenshot 12 — Connectivity & security section showing the VPC and attached security group
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-12.png).
 
 ---
 
@@ -131,7 +131,7 @@ Connect to RDS from EC2, create the `epicbook` database, and import the provided
 
 #### Screenshot 13 — Terminal showing successful `SHOW TABLES;` output with tables listed
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-13.png).
 
 ---
 
@@ -145,19 +145,19 @@ Clone the EpicBook repository, install backend dependencies, configure `.env` wi
 
 #### Screenshot 14 — Terminal showing the repository cloned and the `ls` output
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-14.png).
 
 ---
 
 #### Screenshot 15 — Terminal showing the backend running, or `ss -tulpn` showing the port open
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-15.png).
 
 ---
 
 #### Screenshot 16 — `curl` output proving the backend responds; a 200, 301, or 404 response is acceptable if the service responds
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-15.png).
 
 ---
 
@@ -171,13 +171,13 @@ Copy the frontend files to the Nginx web root and configure Nginx to reverse-pro
 
 #### Screenshot 17 — `nginx -t` success output
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-17.png).
 
 ---
 
 #### Screenshot 18 — Nginx configuration snippet showing the `/api/` reverse proxy
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-17.png).
 
 ---
 
@@ -191,19 +191,19 @@ Verify the frontend loads publicly, the backend responds through Nginx, and EC2 
 
 #### Screenshot 19 — Browser showing the EpicBook application loaded with the public IP visible
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-19.png).
 
 ---
 
 #### Screenshot 20 — Terminal showing a successful API call through the public endpoint, such as `curl http://<EC2_PUBLIC_IP>/api/...`
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-20.png).
 
 ---
 
 #### Screenshot 21 — Terminal showing the successful database connectivity test using `SELECT 1;` or similar
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-21.png).
 
 ---
 
@@ -216,16 +216,16 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: VPC, public/private subnets, IGW, and public routing created (Screenshots 1–3)
-- [ ] Task 2: Least-privilege EC2 and RDS security groups created (Screenshots 4–5)
-- [ ] Task 3: Ubuntu EC2 launched in the public subnet with SSH verified (Screenshots 6–7)
-- [ ] Task 4: Node.js, npm, Nginx, and MySQL client installed (Screenshots 8–10)
-- [ ] Task 5: Private MySQL RDS created with no public access (Screenshots 11–12)
-- [ ] Task 6: Database initialized from the SQL dump (Screenshot 13)
-- [ ] Task 7: Backend deployed and responding on port 3000 (Screenshots 14–16)
-- [ ] Task 8: Nginx serving the frontend and reverse-proxying to the backend (Screenshots 17–18)
-- [ ] Task 9: Frontend, backend, and RDS verified end to end (Screenshots 19–21)
-- [ ] No sensitive data exposed
+- [✓] Task 1: VPC, public/private subnets, IGW, and public routing created (Screenshots 1–3)
+- [✓] Task 2: Least-privilege EC2 and RDS security groups created (Screenshots 4–5)
+- [✓] Task 3: Ubuntu EC2 launched in the public subnet with SSH verified (Screenshots 6–7)
+- [✓] Task 4: Node.js, npm, Nginx, and MySQL client installed (Screenshots 8–10)
+- [✓] Task 5: Private MySQL RDS created with no public access (Screenshots 11–12)
+- [✓] Task 6: Database initialized from the SQL dump (Screenshot 13)
+- [✓] Task 7: Backend deployed and responding on port 3000 (Screenshots 14–16)
+- [✓] Task 8: Nginx serving the frontend and reverse-proxying to the backend (Screenshots 17–18)
+- [✓] Task 9: Frontend, backend, and RDS verified end to end (Screenshots 19–21)
+- [✓] No sensitive data exposed
 
 ---
 
