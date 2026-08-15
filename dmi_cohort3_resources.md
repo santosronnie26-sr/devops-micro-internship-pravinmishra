@@ -1,4 +1,4 @@
-# DEVOPS MICRO INTERNSHIP COHORT 3 - ALL REQUIRED LINKS - THE CLOUD ADVISORY
+# DEVOPS MICRO INTERNSHIP - ALL REQUIRED LINKS - THE CLOUD ADVISORY
 
 ---
 
@@ -16,23 +16,61 @@
 
 ## [Cohort-3 Leaderboard - LIVE](https://dmi.pravinmishra.com/leaderboard.html?utm_source=github&utm_medium=readme)
 
+## [Self-Phased Track Leaderboard](https://dmi.pravinmishra.com/self-paced-leaderboard.html?utm_source=github&utm_medium=readme)
+
 ---
 
 ## IMPORTANT FOR LINKEDIN AND BLOG POSTS - Always add the below line and the hashtags
 
+Use the P.S. line for **your track**.
+
+| Track |
+|-------|
+| Cohort 3 (Live) |
+| DMI-Foundation Track |
+| DMI-Self-Paced Engineer Track |
+
+### Cohort 3 (Live) Track
+
 **For LinkedIn posts:**
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: `https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html` · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=cohort3**
 
 **For blog posts:**
 
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: `https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html` · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
+
+### DMI-Foundation Track
+
+**For LinkedIn posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Foundation Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: `https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html` · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=foundation**
+
+**For blog posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Foundation Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: `https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html` · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=foundation**
+
+**Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post.**
+
+### DMI-Self-Paced Engineer Track
+
+**For LinkedIn posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: `https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html` · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-linkedin&utm_campaign=self-paced**
+
+**For blog posts:**
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: `https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html` · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced**
+
+**Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post.**
 
 Replace `YOUR-GITHUB-USERNAME` with your GitHub username — that link is your public DMI progress page (your graded badge page).
 
 #DMIByPravinMishra 
 
-### Tag 'Pravin Mishra', 'Lead Co mentor' & your group's co comentors to your LinkedIn post.
+---
+
+### Tag 'Pravin Mishra', 'Lead Co mentor' & your group's co comentors to your LinkedIn post. (Cohort 3 Live track students)
 
 Pravin Mishra [Linkedin profile](https://www.linkedin.com/in/pravin-mishra-aws-trainer/)
 
