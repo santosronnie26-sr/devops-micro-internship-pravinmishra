@@ -20,21 +20,20 @@ Create `epicbook-vpc` (10.0.0.0/16) with a public subnet (10.0.1.0/24) and a pri
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
-
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-1.png).
 ---
 
 #### Screenshot 2 — Subnets list showing both subnets and their CIDRs
 
-Add your screenshot here.
-
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-2-1.png).
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-2-2.png).
 ---
 
 #### Screenshot 3 — Route table showing 0.0.0.0/0 → IGW and association with the public subnet
 
 Add your screenshot here.
 
----
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-3.png).
 
 # Task 2 — Create Security Groups (EC2 + RDS) with Least Privilege
 
@@ -46,13 +45,13 @@ Create `epicbook-ec2-sg` (SSH from your IP, HTTP/HTTPS public) and `epicbook-rds
 
 #### Screenshot 4 — EC2 security-group inbound rules showing ports and sources
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-4.png).
 
 ---
 
 #### Screenshot 5 — RDS security-group inbound rule showing MySQL 3306 allowed from the EC2 security group
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-5.png).
 
 ---
 
@@ -66,13 +65,13 @@ Launch an Ubuntu 20.04 instance in the public subnet with `epicbook-ec2-sg` atta
 
 #### Screenshot 6 — EC2 instance summary showing the public IPv4 address, subnet, and security group
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-6.png).
 
 ---
 
 #### Screenshot 7 — Terminal showing a successful SSH login with the `ubuntu@...` prompt
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-7.png).
 
 ---
 
@@ -86,19 +85,19 @@ Install Node.js, npm, Nginx, and the MySQL client on the instance, and confirm N
 
 #### Screenshot 8 — Output of `node -v` and `npm -v`
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-7.png).
 
 ---
 
 #### Screenshot 9 — Output of `systemctl status nginx`
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-9.png).
 
 ---
 
 #### Screenshot 10 — Output of `mysql --version`
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A4/W6-A4-SS-10.png).
 
 ---
 
