@@ -190,15 +190,19 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
 #### Instance i-0a5a001340b0cbe60 showing as running
+
 ![ss](./screenshots/W6-SS-A5/W6-A5-SS-19.png).
 
 #### Instance i-0a5a001340b0cbe60, now showing as terminated
+
 ![ss](./screenshots/W6-SS-A5/W6-A5-SS-19-0.png).
 
 #### Replaced by i-0864f4318db5cd7f7 initializing
+
 ![ss](./screenshots/W6-SS-A5/W6-A5-SS-19-1.png).
 
 #### Instance i-0864f4318db5cd7f7 on running state
+
 ![ss-autocreated](./screenshots/W6-SS-A5/W6-A5-SS-19-2.png).
 
 ![ss-autocreated](./screenshots/W6-SS-A5/W6-A5-SS-19-logs.png).
