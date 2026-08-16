@@ -153,7 +153,7 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-16.png).
 
 ---
 
@@ -167,13 +167,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-17.png).
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-18.png).
 
 ---
 
@@ -189,25 +189,31 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-19.png).
+
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-19-1.png).
+
+![ss-autocreated](./screenshots/W6-SS-A5/W6-A5-SS-19-2.png).
+
+![ss-autocreated](./screenshots/W6-SS-A5/W6-A5-SS-19-logs.png).
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-20.png).
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-21.png).
 
 ---
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-22.png).
 
 ---
 
