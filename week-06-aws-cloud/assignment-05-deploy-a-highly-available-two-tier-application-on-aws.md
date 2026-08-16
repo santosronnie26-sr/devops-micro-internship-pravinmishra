@@ -189,10 +189,16 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
+#### Instance i-0a5a001340b0cbe60 showing as running
 ![ss](./screenshots/W6-SS-A5/W6-A5-SS-19.png).
 
+#### Instance i-0a5a001340b0cbe60, now showing as terminated
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-19-0.png).
+
+#### Replaced by i-0864f4318db5cd7f7 initializing
 ![ss](./screenshots/W6-SS-A5/W6-A5-SS-19-1.png).
 
+#### Instance i-0864f4318db5cd7f7 on running state
 ![ss-autocreated](./screenshots/W6-SS-A5/W6-A5-SS-19-2.png).
 
 ![ss-autocreated](./screenshots/W6-SS-A5/W6-A5-SS-19-logs.png).
@@ -207,6 +213,7 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
+Instance i-0a5a001340b0cbe60, now showing as terminated
 ![ss](./screenshots/W6-SS-A5/W6-A5-SS-21.png).
 
 ---
@@ -227,7 +234,8 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-Add your screenshot here.
+
+![ss](./screenshots/W6-SS-A5/W6-A5-SS-23.png).
 
 ---
 
@@ -235,19 +243,19 @@ Add your screenshot here.
 
 Summarize the VPC and subnets across the two Availability Zones.
 
-Write your answer here.
+ha-vpc (10.0.0.0/16) spans two Availability Zones with four subnets: two public (public-subnet-a in us-east-1a at 10.0.1.0/24, public-subnet-b in us-east-1b at 10.0.2.0/24) and two private (private-subnet-a at 10.0.11.0/24, private-subnet-b at 10.0.12.0/24). An Internet Gateway is attached to the VPC and routed to from the public route table, which is associated with both public subnets. A single NAT Gateway sits in public-subnet-a, and the private route table (associated with both private subnets) routes outbound traffic through it, giving private resources internet access without any inbound exposure.
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+ha-alb, an internet-facing Application Load Balancer, spans both public subnets with an HTTP:80 listener forwarding to the ha-web-tg target group. Web instances are launched from a Launch Template whose user data installs Apache, PHP, and WordPress, configures the database connection, and ensures the application database exists. An Auto Scaling Group built from that template spans both public subnets with a desired/minimum capacity of 2 and a maximum of 4, keeping instances registered to ha-web-tg so traffic is always spread across both Availability Zones.
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+ha-db is a MySQL RDS instance deployed in Multi-AZ mode (primary in one AZ, synchronously replicated standby in the other) using a DB Subnet Group that covers both private subnets. It is not publicly accessible and is secured by ha-db-sg, which allows inbound traffic on the database port only from ha-web-sg — the web tier's security group.
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+Test A (instance termination): a running web instance was manually terminated, and the Auto Scaling Group automatically launched a replacement to restore desired capacity; the target group returned to fully healthy shortly after, with no interruption to the ALB endpoint. Test B (Availability Zone impact): an instance in one AZ was stopped/placed in standby to simulate a zone outage; the application remained reachable through the ALB DNS name throughout, served entirely by the healthy instance in the surviving AZ, confirming the two-AZ design tolerates a full zone failure.
 
 ---
 
