@@ -20,7 +20,7 @@ Create an architecture diagram showing the custom VPC (10.0.0.0/16), the six sub
 
 #### Diagram image or link
 
-Add your diagram image or link here.
+![ss](./screenshots/W6-SS-A6/W6-A6-SS-1.png).
 
 ---
 
@@ -34,7 +34,7 @@ Record the AWS Region used and list every AWS service used across networking, co
 
 **Region:**
 
-Write your answer here.
+us-east1-1
 
 ---
 
@@ -56,7 +56,7 @@ Confirm the Book Review App loads through the public ALB DNS name.
 
 Paste your public ALB DNS name here:
 
-`Add your URL here`
+Book-Review-Web-ALB-1184164296.us-east-1.elb.amazonaws.com
 
 ---
 
@@ -70,31 +70,32 @@ Capture visual proof of every tier and load balancer.
 
 #### Web EC2
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A6/W6-A6-SS-2.png).
 
 ---
 
 #### App EC2
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A6/W6-A6-SS-3.png).
 
 ---
 
 #### Public ALB
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A6/W6-A6-SS-4.png).
 
 ---
 
 #### Internal ALB
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A6/W6-A6-SS-5.png).
 
 ---
 
 #### RDS + Replica
 
-Add your screenshot here.
+unable to enable, account still on free tier
+![ss](./screenshots/W6-SS-A6/W6-A6-SS-6.png).
 
 ---
 
