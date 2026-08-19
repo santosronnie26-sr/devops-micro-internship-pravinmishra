@@ -186,14 +186,14 @@ Add your screenshot here.
 
 # Completion Checklist
 
-- [ ] Task 1: Architecture diagram completed
-- [ ] Task 2: AWS Region and services documented
-- [ ] Task 3: Public ALB DNS confirmed working
-- [ ] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
-- [ ] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
-- [ ] LinkedIn post published and URL submitted
-- [ ] App Tier and Database Tier confirmed not publicly accessible
-- [ ] No sensitive data exposed
+- [✓] Task 1: Architecture diagram completed
+- [✓] Task 2: AWS Region and services documented
+- [✓] Task 3: Public ALB DNS confirmed working
+- [✓] Task 4: All six evidence screenshots captured (Web Tier, App Tier, both ALBs, RDS + replica, app UI)
+- [✓] Task 5: Deployment summary completed (what worked, issues/fixes, tools/sources)
+- [] LinkedIn post published and URL submitted
+- [✓] App Tier and Database Tier confirmed not publicly accessible
+- [✓] No sensitive data exposed
 
 ---
 
