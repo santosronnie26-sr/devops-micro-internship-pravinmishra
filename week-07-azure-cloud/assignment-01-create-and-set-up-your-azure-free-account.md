@@ -30,7 +30,7 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 1 — Azure Portal homepage after successful login
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A1/W7-A1-SS-1.png)
 
 ---
 
