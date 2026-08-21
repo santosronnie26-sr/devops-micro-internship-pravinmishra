@@ -36,7 +36,7 @@ Sign in to the Azure Portal, locate key services (Resource Groups, Virtual Machi
 
 #### Screenshot 2 — "Subscriptions" section showing the "Free Trial" subscription
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A1/W7-A1-SS-2.png).
 
 ---
 
@@ -44,7 +44,7 @@ Add your screenshot here.
 
 Write a three-to-four-line paragraph explaining which Azure services you plan to explore first and why.
 
-Write your answer here.
+I plan to explore Virtual Machines and Resource Groups first, since they map closely to the EC2 instances and VPC-based organization I've been working with on AWS the past few weeks — it'll help me quickly compare how Azure structures compute and resource organization differently. After that, I want to look at Storage (Azure's equivalent to S3, since I built a static site there in an earlier assignment) and App Services, since it offers a managed way to deploy web apps without handling the VM layer directly, which is a pattern I haven't tried yet on AWS.
 
 ---
 
@@ -57,12 +57,12 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
-- [ ] Free Trial subscription confirmed (Screenshot 2)
-- [ ] Reflection paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [✓] Azure Free Account created with identity, phone, and payment verification completed
+- [✓] Microsoft Agreement and Offer Terms accepted
+- [✓] Azure Portal accessed successfully (Screenshot 1)
+- [✓] Free Trial subscription confirmed (Screenshot 2)
+- [✓] Reflection paragraph written (Notes)
+- [✓] No sensitive information exposed
 
 ---
 
