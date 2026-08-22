@@ -30,7 +30,7 @@ Add your screenshot here.
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort`
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A7/W6-A7-SS-1.png).
 
 ---
 
@@ -42,7 +42,7 @@ Write your answer here.
 
 **2. Why must you confirm your resources exist before writing an audit script against them?**
 
-Write your answer here.
+![ss](./screenshots/W6-SS-A7/W6-A7-SS-2.png).
 
 ---
 
@@ -56,7 +56,7 @@ Create a `CLAUDE.md` in your workspace that tells Claude the audit script is rea
 
 #### Screenshot 3 — `CLAUDE.md` open in VS Code showing all four sections
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A7/W6-A7-SS-3.png).
 
 ---
 
@@ -82,7 +82,10 @@ Ask Claude Code to propose a read-only audit plan covering five checks — S3 pu
 
 #### Screenshot 4 — Claude Code showing the five-check plan
 
-Add your screenshot here.
+![ss](./screenshots/W6-SS-A7/W6-A7-SS-4.png).
+![ss](./screenshots/W6-SS-A7/W6-A7-SS-4-1.png).
+![ss](./screenshots/W6-SS-A7/W6-A7-SS-4-2.png).
+![ss](./screenshots/W6-SS-A7/W6-A7-SS-4-3.png).
 
 ---
 
