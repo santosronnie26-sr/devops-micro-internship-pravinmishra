@@ -20,7 +20,7 @@ Confirm your Azure CLI is authenticated and can see the VM, network, storage acc
 
 #### Screenshot 1 — `az account show` and `az vm list -d -o table` confirming your subscription and running VM (subscription ID partially blurred)
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-1.png).
 
 ---
 
@@ -34,7 +34,7 @@ Create a `CLAUDE.md` for this workspace that tells Claude what the audit covers 
 
 #### Screenshot 2 — `CLAUDE.md` open in your editor showing the project overview, audit workflow, and safety rules
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-2.png).
 
 ---
 
@@ -48,7 +48,7 @@ Ask Claude Code to read `CLAUDE.md` and propose a read-only, four-check audit pl
 
 #### Screenshot 3 — Claude Code showing the four-check plan, with no files created or modified
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-3.png).
 
 ---
 
@@ -62,13 +62,13 @@ Write a Bash script that runs the four checks from Task 3 using read-only `az` c
 
 #### Screenshot 4 — Your script open in your editor, showing the check functions and the `az` commands they call
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-4.png).
 
 ---
 
 #### Screenshot 5 — Output of `bash -n` (no syntax errors) and `ls -l` showing the script is executable
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-5.png).
 
 ---
 
@@ -82,7 +82,7 @@ Run the script against your live resources and read the report honestly, even if
 
 #### Screenshot 6 — Script output showing your Full Name and all four checks with a PASS, WARN, or FAIL result
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-6.png).
 
 ---
 
@@ -96,13 +96,13 @@ Create a Claude Code skill restricted to read-only tools (no `Write`) that runs 
 
 #### Screenshot 7 — Your skill file's frontmatter showing `allowed-tools` without `Write`
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-7.png).
 
 ---
 
 #### Screenshot 8 — `/azure-audit` output showing the baseline findings and Claude's explanation
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-8.png).
 
 ---
 
@@ -116,19 +116,19 @@ Pick one WARN or FAIL finding (or deliberately open an NSG rule to port 22 from 
 
 #### Screenshot 9 — Saved report showing the original finding before the fix
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-9.png).
 
 ---
 
 #### Screenshot 10 — Terminal output of the remediation command you ran yourself
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-10.png).
 
 ---
 
 #### Screenshot 11 — Second `/azure-audit` run (or report) showing the finding resolved
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A7/W7-A7-SS-11.png).
 
 ---
 
@@ -136,7 +136,11 @@ Add your screenshot here.
 
 Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the `az`/`aws` commands are completely different?
 
-Add your answer here
+Compare this assignment to the AWS audit you built in Week 6: which finding categories map to each other across the two clouds, and what stayed exactly the same about the workflow even though the az/aws commands are completely different?
+
+The Azure and AWS security audits I built evaluate similar security categories using different cloud-specific services and CLI commands. I mapped Azure Network Security Groups to AWS Security Groups, Azure Storage Account public-access controls to Amazon S3 public-access controls, and Azure VM disk-encryption settings to EC2/EBS encryption. I also mapped Azure Database for MySQL network exposure to Amazon RDS public accessibility and security-group controls, though I had to build that check differently: in my AWS audit, RDS was reachable over the network from EC2, so a security-group rule on port 3306 was the meaningful thing to check. My Azure Database for MySQL Flexible Server is fully managed (PaaS) behind a private DNS zone with no customer-managed NSG in front of it at all, so I had to ask the same question — is the database reachable from outside the network — directly against the database resource's own publicNetworkAccess setting instead of a network security rule.
+
+The workflow I followed stayed consistent across both cloud platforms: I gathered read-only evidence first, classified findings as PASS, WARN, or FAIL, used AI to explain the evidence and recommend remediation without executing it, reviewed and performed the change myself, and then reran the audit to verify the issue was resolved. This showed me that the security-audit methodology I used is cloud-agnostic even though Azure uses az commands while AWS uses aws commands.
 
 ---
 
