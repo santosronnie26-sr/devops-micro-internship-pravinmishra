@@ -20,13 +20,12 @@ Create an architecture diagram and implementation plan identifying the presentat
 
 #### Screenshot 1 — Architecture diagram showing the public entry point, three tiers, network boundaries, and traffic flow
 
-Add your screenshot here.
-
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-1.png).
 ---
 
 #### Screenshot 2 — Written architecture assumptions and selected Azure services
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-2.png).
 
 ---
 
@@ -40,19 +39,19 @@ Create a dedicated Resource Group and VNet with separate subnets for the web, ap
 
 #### Screenshot 3 — Resource Group overview showing the assignment resources
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-3.png).
 
 ---
 
 #### Screenshot 4 — VNet overview showing the address space and all required subnets
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-4.png).
 
 ---
 
 #### Screenshot 5 — Route-table or Private DNS evidence where applicable
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-5.png).
 
 ---
 
@@ -66,13 +65,13 @@ Apply least-privilege NSG rules so traffic flows Internet → public entry point
 
 #### Screenshot 6 — NSG rules proving least-privilege access between the tiers
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-6.png).
 
 ---
 
 #### Screenshot 7 — Key Vault or approved secret-management configuration (without displaying secret values)
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-7.png).
 
 ---
 
@@ -86,13 +85,13 @@ Deploy the Book Review App presentation layer on the approved web-tier compute s
 
 #### Screenshot 8 — Web-tier compute overview showing subnet and availability configuration
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-8.png).
 
 ---
 
 #### Screenshot 9 — Terminal or service output proving the presentation layer is running
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-8.png).
 
 ---
 
@@ -106,19 +105,19 @@ Deploy the Book Review App backend privately in the application subnet, configur
 
 #### Screenshot 10 — Application-tier compute overview showing private subnet placement
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-10.png).
 
 ---
 
 #### Screenshot 11 — Backend process, service, or listening-port evidence
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-11.png).
 
 ---
 
 #### Screenshot 12 — Internal health-check or API response (without exposing secrets)
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-12.png).
 
 ---
 
@@ -132,19 +131,19 @@ Create a private Azure managed database (public access disabled), with availabil
 
 #### Screenshot 13 — Database overview showing private connectivity and public access disabled
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-13.png).
 
 ---
 
 #### Screenshot 14 — Availability, backup, and retention configuration
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-14.png).
 
 ---
 
 #### Screenshot 15 — Successful schema or connectivity verification (without exposing credentials)
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-15.png).
 
 ---
 
@@ -158,19 +157,19 @@ Configure the approved public entry service with health probes and backend pools
 
 #### Screenshot 16 — Public entry service showing listener, frontend endpoint, and healthy web targets
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-16.png).
 
 ---
 
 #### Screenshot 17 — Internal application-tier load-balancing or routing configuration where applicable
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-17.png).
 
 ---
 
 #### Screenshot 18 — Azure Monitor, diagnostic settings, logs, metrics, or alert evidence
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-18.png).
 
 ---
 
@@ -184,25 +183,25 @@ Confirm the Book Review App works end to end through the public endpoint, with a
 
 #### Screenshot 19 — Browser showing the Book Review App through the public endpoint
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-19.png).
 
 ---
 
 #### Screenshot 20 — Proof of successful database-backed read and write operations
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-20.png).
 
 ---
 
 #### Screenshot 21 — Evidence that private tiers are not publicly accessible
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-21.png).
 
 ---
 
 #### Screenshot 22 — Availability-test and healthy-target evidence
 
-Add your screenshot here.
+![ss](./screenshots/W7-SS-A6/W7-A6-SS-22.png).
 
 ---
 
@@ -210,7 +209,7 @@ Add your screenshot here.
 
 Paste your public endpoint URL here:
 
-`Add your URL here`
+http://4.189.51.3/
 
 ---
 
