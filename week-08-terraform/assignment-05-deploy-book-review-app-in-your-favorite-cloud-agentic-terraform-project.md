@@ -31,7 +31,7 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-1.png)
 
 ---
 
@@ -39,7 +39,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-2.png)
 
 ---
 
@@ -47,7 +47,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-3.png)
 
 ---
 
@@ -55,7 +55,7 @@ Add your screenshot here.
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-4.png)
 
 ---
 
@@ -63,7 +63,7 @@ Add your screenshot here.
 
 Add a screenshot showing the configured Claude Code validation hooks.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-5.png)
 
 ---
 
@@ -90,7 +90,7 @@ The diagram must show:
 
 ## Architecture Diagram
 
-Add the completed architecture diagram here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-diag.png)
 
 ---
 
@@ -106,7 +106,7 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-6.png)
 
 ---
 
@@ -114,7 +114,7 @@ Add your screenshot here.
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-7.png)
 
 ---
 
@@ -122,7 +122,7 @@ Add your screenshot here.
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-8.png)
 
 ---
 
@@ -218,7 +218,7 @@ Validate the Terraform configuration, review the execution plan using both Agent
 
 Add a screenshot showing successful `terraform validate` output.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-17-1.png)
 
 ---
 
@@ -226,7 +226,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan output.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-18-1.png)
 
 ---
 
@@ -320,7 +320,7 @@ Add your screenshot here.
 
 Add a screenshot showing one structured architecture or security review result.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-27.png)
 
 ---
 
@@ -328,7 +328,7 @@ Add your screenshot here.
 
 Add a screenshot showing one AI-assisted troubleshooting interaction based on collected evidence.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-28.png)
 
 ---
 
