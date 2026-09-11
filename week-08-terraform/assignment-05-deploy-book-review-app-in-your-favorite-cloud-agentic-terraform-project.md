@@ -138,7 +138,7 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-9.png)
 
 ---
 
@@ -146,7 +146,7 @@ Add your screenshot here.
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-10.png)
 
 ---
 
@@ -154,7 +154,7 @@ Add your screenshot here.
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-11.png)
 
 ---
 
@@ -162,8 +162,8 @@ Add your screenshot here.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
-
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-12-1.png)
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-12-2.png)
 ---
 
 # Task 4 — Build the Managed MySQL Database Layer
@@ -178,7 +178,7 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-13.png)
 
 ---
 
@@ -186,7 +186,7 @@ Add your screenshot here.
 
 Add a screenshot showing the Multi-AZ or high-availability configuration.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-14.png)
 
 ---
 
@@ -194,7 +194,7 @@ Add your screenshot here.
 
 Add a screenshot showing the read replica configuration.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-15.png)
 
 ---
 
@@ -202,7 +202,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the database is private and accepts MySQL traffic only from the Application Tier.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-16.png)
 
 ---
 
@@ -234,7 +234,7 @@ Add a screenshot showing the Terraform plan output.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+![ss](./screenshots/W8-SS-A5/W8-A5-SS-19.png)
 
 ---
 
