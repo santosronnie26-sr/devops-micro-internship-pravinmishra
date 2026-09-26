@@ -1,6 +1,6 @@
 # Assignment 4 — GitHub Account, Exploration & Professional Profile Setup
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -70,6 +70,20 @@ Add a professional bio to your GitHub profile — and optionally your location, 
 
 ---
 
+# Task 4 — Share Your GitHub Setup Progress on WhatsApp Status
+
+## Goal
+
+Share your GitHub learning progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 7 — Published WhatsApp Status showing your GitHub setup message and generated DMI leaderboard progress link
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Add all required screenshots in your submission
@@ -95,6 +109,7 @@ Paste your GitHub profile URL here:
 - [✓] Professional bio added to your GitHub profile (Screenshot 6)
 - [✓] GitHub profile URL included
 - [✓] No passwords, codes, or authentication secrets exposed
+- [ ] WhatsApp Status shared for Task 4
 
 ---
 
@@ -118,4 +133,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

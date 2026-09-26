@@ -1,6 +1,6 @@
 # Assignment 5 — Connecting Claude to the Outside World
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -80,6 +80,20 @@ Verify MCP functionality by retrieving real-time data from your GitHub account u
 
 ---
 
+# Task 6 — Share Your MCP Achievement
+
+## Goal
+
+Share your MCP achievement on Facebook or WhatsApp Status and provide evidence of the published post/status.
+
+### Evidence
+
+#### Screenshot 6 — Published Facebook post or WhatsApp Status showing your MCP achievement message and leaderboard progress link visible
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Ensure `.mcp.json` is committed to your GitHub repository
@@ -116,6 +130,8 @@ Confirm below:
 - [✓] Live GitHub query returns real repository data
 - [✓] All required screenshots added
 - [✓] GitHub repository URL included
+- [ ] MCP achievement shared on Facebook or WhatsApp Status
+- [ ] Screenshot 6 added showing the published post/status
 
 ---
 
@@ -139,4 +155,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

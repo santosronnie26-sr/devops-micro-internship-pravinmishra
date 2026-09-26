@@ -1,6 +1,6 @@
 # Assignment 2 — Create an AWS EC2 Virtual Machine Using Terraform
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -156,10 +156,26 @@ Remove all AWS resources created by Terraform after completing the deployment an
 
 ---
 
+# Task 6 — Share Your Terraform Progress
+
+## Goal
+
+Share your AWS Terraform deployment progress by using either Facebook or WhatsApp from the DMI Leaderboard.
+
+### Evidence
+
+#### Screenshot 11 — Published Facebook post/Story or WhatsApp Status showing Terraform deployment progress and DMI Leaderboard progress link
+
+Add your screenshot here.
+
+> Use Screenshot 6 — successful `terraform apply` output — as the assignment image for your post or Status. Ensure that no AWS credentials, private keys, account IDs, private phone numbers, or personal messages are visible.
+
+---
+
 # Submission Instructions
 
 * Complete all tasks in sequence.
-* Include all required screenshots specified in Tasks 0–5.
+* Include all required screenshots specified in Tasks 0–6.
 * Ensure that your full name is visible in the required screenshots.
 * Record the EC2 public IP address in Task 3.
 * Follow the screenshot requirements exactly as specified.
@@ -172,33 +188,6 @@ Remove all AWS resources created by Terraform after completing the deployment an
 
 # Completion Checklist
 
-* [✓] Installed Terraform and verified it using `terraform version`
-* [✓] Installed AWS CLI and verified it using `aws --version`
-* [✓] Configured AWS CLI and verified account access
-* [✓] Confirmed the correct AWS Region
-* [✓] Installed and enabled the HashiCorp Terraform extension in VS Code
-* [✓] Created the `terraform-aws-vm` project directory and `main.tf`
-* [✓] Added the Terraform and AWS provider configuration
-* [✓] Defined the custom VPC, public subnet, and private subnet
-* [✓] Configured the Internet Gateway and public route table
-* [✓] Associated the public route table with the public subnet
-* [✓] Defined the security group for SSH and HTTP access
-* [✓] Restricted SSH access to my public IP whenever possible
-* [✓] Defined the EC2 instance inside the public subnet
-* [✓] Configured SSH authentication without exposing the private key
-* [✓] Added the Terraform output for the EC2 public IP address
-* [✓] Completed `terraform init` successfully
-* [✓] Reviewed the Terraform execution plan using `terraform plan`
-* [✓] Completed `terraform apply` successfully
-* [✓] Captured and recorded the EC2 public IP using `terraform output`
-* [✓] Verified that the EC2 instance is running using AWS CLI
-* [✓] Verified that the AWS public IP matches the Terraform output
-* [✓] Verified Nginx access through the EC2 public IP
-* [✓] Completed `terraform destroy` successfully
-* [✓] Captured all 10 required screenshots
-* [✓] Confirmed that my full name is visible in the required screenshots
-* [✓] Checked that no AWS credentials, private keys, passwords, account IDs, or other sensitive information are visible
-* [✓] Confirmed that no `.pem` private key file has been uploaded to the GitHub repository
 
 ---
 

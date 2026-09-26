@@ -1,139 +1,71 @@
 # Week 01 — Success Mindset (Mindset OS)
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
-## Purpose (Read This First)
+## Task 1 — A Belief You Hold
 
-This week is not motivation homework.
+### Question
 
-This is you building your **Mindset OS** — the system you will use for the next 5 months (and honestly, for years).
+What is something you believe to be true that most people around you would disagree with?
 
-### Expectations
+Write at least **50 words**. Be honest, specific, and use clear professional sentences.
 
-* Be honest.
-* Be specific.
-* Be practical.
-* Write like an adult professional: clear sentences, no one-liners.
-
-You will reuse this in later weeks. So do it properly once.
-
----
-
-# Assignment 1. What is something you believe to be true that most people around you would disagree with?
-
-### Rules
-
-* No "safe" answers.
-* Must be your real belief (not copied from internet).
-* Minimum 50 words.
-
-**Hint:** What do you believe about career, money, learning, discipline, relationships, health, success, life, tech industry, etc. that most people don't agree with?
-
-## Answer
+### Your Answer
 
 I believe that job security no longer comes from staying with one company for many years—it comes from continuously building valuable skills and maintaining proof of your abilities. Many people around me believe that loyalty alone leads to career stability. I disagree because technology changes too quickly. Someone who stops learning eventually becomes replaceable, regardless of how long they have been with an organization. Over the years, I've seen that certifications, hands-on projects, documentation, and adapting to new technologies create more opportunities than simply accumulating years of experience. That's why I believe every IT professional should always be learning and building, even when they already have a stable job.
 
 ---
 
-# Assignment 2. What are the top 3 objective truths you discovered through experimentation and results?
+## Task 2 — Three Objective Truths Discovered Through Experimentation
 
-### Definition
+Write three objective truths you discovered through your own actions and results. For each truth, include one sentence for the truth and two to four lines of evidence from your life.
 
-Objective truths do not depend on opinions. They hold true regardless of how people feel.
+### Truth #1
 
-Write each truth in this format:
-
-**Truth:** (1 sentence)
-
-**Evidence from my life:** (2–4 lines: what you tried + what happened)
-
----
-
-## Truth #1
-
-### Truth
+**Truth**
 
 Consistency beats motivation every time.
 
-### Evidence from my life
+**Evidence from My Life**
 
 Whenever I depended on motivation, I often delayed studying or improving my skills. When I started setting small daily goals and following them consistently, I made steady progress in learning new technologies, improving my resume, and preparing for interviews. The results came from discipline, not motivation.
 
----
+### Truth #2
 
-## Truth #2
+**Truth**
 
-### Truth
+Clear communication creates more opportunities than technical knowledge alone.
+
+**Evidence from My Life**
+
+Throughout my IT support career, I found that explaining technical issues clearly to users and working well with different teams built trust. This helped me handle larger responsibilities, lead onboarding and offboarding activities, and become someone others relied on during incidents.
+
+### Truth #3
+
+**Truth**
 
 Hands-on experience teaches faster than passive learning.
 
-### Evidence from my life
+**Evidence from My Life**
 
 Reading documentation helped me understand concepts, but I learned much more after setting up systems, troubleshooting issues, and supporting production environments. Every real problem I solved improved my confidence far more than watching videos alone.
 
 ---
 
-## Truth #3
+## Task 3 — What Does Your 2.0 Version Look Like?
 
-### Truth
+Write and publicly publish an article about your future professional self, written as if a journalist is writing about you **3–7 years from now**.
 
-Clear communication creates more opportunities than technical knowledge alone.
+Your article must:
 
-### Evidence from my life
+* Be at least **300 words**.
+* Be written in the **past tense**, as if it has already happened.
+* Include specific proof such as projects, portfolio, GitHub, blogs, certifications, job role, leadership, or community contribution.
+* Be published on LinkedIn, Medium, WordPress, Blogspot, a personal blog, or a portfolio page.
 
-Throughout my IT support career, I found that explaining technical issues clearly to users and working well with different teams built trust. This helped me handle larger responsibilities, lead onboarding and offboarding activities, and become someone others relied on during incidents.
-
----
-
-# Assignment 3. What does your 2.0 version look like?
-
-### Instructions
-
-Write as if a journalist is writing about you **3 to 7 years from now** (not 20 years).
-
-**Minimum 300 words.**
-
-### Rules
-
-* Write in past tense, like it already happened.
-* Don't use "likes to / wants to / hopes to."
-* Use specifics:
-
-  * built
-  * shipped
-  * led
-  * published
-  * earned
-  * relocated
-  * contributed
-* Include skills proof:
-
-  * projects
-  * portfolios
-  * GitHub
-  * blogs
-  * certifications
-  * job role
-  * leadership
-  * community contribution
-* Add 1–3 images if you can (optional but powerful).
-
-### Publish It Publicly On Any ONE
-
-* LinkedIn
-* Medium
-* WordPress
-* Blogspot
-* Personal blog
-* Portfolio page
-
-Include this line:
-
-> **P.S. This post is part of the DevOps Micro Internship (DMI) with Agentic AI — Cohort 3 — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public: https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html · Start your DevOps journey: https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=cohort3**
-
-## Your Article
+### My Article
 
 Three years later, Ronnie had successfully transitioned from a decade-long career in IT support to become a respected DevOps and Cloud Engineer. Leveraging his background in infrastructure, networking, and enterprise support, he developed the skills needed to excel in modern cloud and DevOps environments.
 
@@ -143,107 +75,82 @@ As his career progressed, Ronnie advanced into a Senior DevOps Engineer role, wh
 
 His success was built on consistent learning, practical experience, and a disciplined approach to professional growth. Ronnie's journey became an example of how dedication and continuous improvement can transform an experienced IT support professional into a trusted DevOps leader.
 
+### Public Article URL
 
-### Public Link
-
-Paste your link here:
-
+```text
 https://medium.com/@santosronnie1991/from-it-support-professional-to-devops-engineer-51de2c9815b8
+```
+
+### LinkedIn Post URL
+
+Create a LinkedIn post sharing your published article, then add the URL below.
+
+```text
+https://www.linkedin.com/posts/ronnie-santos-131856184_join-the-dmi-devops-micro-internship-share-7478318024186503168-ViCC/
+```
+
+### Credit Note — DMI Self-Paced Engineer Track Students
+
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Self-Paced Engineer Track — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=self-paced
+
+`#DMIByPravinMishra`
+
+Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) in your LinkedIn post.
+
+### Credit Note — DMI Campus Students
+
+Add this credit note at the end of your public article. Replace `YOUR-GITHUB-USERNAME` with your actual GitHub username.
+
+> **P.S. This post is part of the DevOps Micro Internship (DMI) — Campus — by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My graded progress is public:** https://dmi.pravinmishra.com/s/YOUR-GITHUB-USERNAME.html **· Start your DevOps journey:** https://dmi.pravinmishra.com/?utm_source=student&utm_medium=ps-blog&utm_campaign=campus
+
+`#DMIByPravinMishra`
+
+Tag [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) and Lead Co-Mentor [Anjana Muthunayake](https://www.linkedin.com/in/anjana-muthunayake/) in your LinkedIn post.
 
 ---
 
-# Assignment 4. Have you ever cut corners (unethical / dishonest / shortcut behavior — not necessarily illegal)? If yes, how did it make you feel?
+## Task 4 — Reflection on Cutting Corners
 
-### Important
+### Question
 
-You don't need to write the full story.
+Have you ever cut corners through unethical, dishonest, or shortcut behaviour (not necessarily illegal)? If yes, how did it make you feel?
 
-Focus on the feeling:
+You do not need to tell the full story. Focus on the emotions you experienced. If your answer is yes, write **50–100 words**.
 
-* guilt
-* fear
-* shame
-* stress
-* regret
-* numbness
-* etc.
+### Your Answer
 
-This is about self-awareness, not judgment.
+**Yes**
 
-### Answer Format
-
-Yes
-
-If Yes:
-
-**What emotion did you feel?** (minimum 50–100 words)
-
-## Answer
-
-There were times when I took shortcuts by postponing documentation or delaying updates after resolving technical issues because I wanted to move on to the next urgent task. Although the immediate problem was solved, I knew the documentation was incomplete. This left me feeling guilty and stressed because I understood that my teammates might need that information later. It also made me realize that small shortcuts can create bigger problems over time. Since then, I've become more disciplined about completing tasks properly, even when I'm under pressure, because I value accountability, teamwork, and maintaining high standards in my work. 
+There were times when I took shortcuts by postponing documentation or delaying updates after resolving technical issues because I wanted to move on to the next urgent task. Although the immediate problem was solved, I knew the documentation was incomplete. This left me feeling guilty and stressed because I understood that my teammates might need that information later. It also made me realize that small shortcuts can create bigger problems over time. Since then, I've become more disciplined about completing tasks properly, even when I'm under pressure, because I value accountability, teamwork, and maintaining high standards in my work.
 
 ---
 
-# Assignment 5. What are 10 non-fiction books you plan to read in the next 1 year?
+## Task 5 — Your One-Year Non-Fiction Reading Plan
 
-### Rules
+List **10 non-fiction books** you plan to read during the next year. Include the title and author of each book. Books in any language are allowed.
 
-* Mention **Title + Author**
-* Any language allowed
-* No fiction novels
-
-### Tip
-
-Choose books that improve:
-
-* mindset
-* communication
-* productivity
-* health
-* money
-* career
-* leadership
-
-## Book List
-
-1. Atomic Habits — Atomic Habits by James Clear
-2. Deep Work — Deep Work by Cal Newport
-3. The Psychology of Money — The Psychology of Money by Morgan Housel
-4. The Phoenix Project — The Phoenix Project by Gene Kim, Kevin Behr, and George Spafford
-5. The DevOps Handbook — The DevOps Handbook by Gene Kim, Jez Humble, Patrick Debois, and John Willis
-6. The Pragmatic Programmer — The Pragmatic Programmer by Andrew Hunt and David Thomas
-7. Extreme Ownership — Extreme Ownership by Jocko Willink and Leif Babin
-8. The First 90 Days — The First 90 Days by Michael D. Watkins
-9. So Good They Can't Ignore You — So Good They Can't Ignore You by Cal Newport
-10. Designing Data-Intensive Applications — Designing Data-Intensive Applications by Martin Kleppmann
-
+1. Atomic Habits — James Clear
+2. Deep Work — Cal Newport
+3. The Psychology of Money — Morgan Housel
+4. The Phoenix Project — Gene Kim, Kevin Behr, and George Spafford
+5. The DevOps Handbook — Gene Kim, Jez Humble, Patrick Debois, and John Willis
+6. The Pragmatic Programmer — Andrew Hunt and David Thomas
+7. Extreme Ownership — Jocko Willink and Leif Babin
+8. The First 90 Days — Michael D. Watkins
+9. So Good They Can't Ignore You — Cal Newport
+10. Designing Data-Intensive Applications — Martin Kleppmann
 
 ---
 
-# Assignment 6. What are the things you will measure regularly in your life and career?
+## Task 6 — Your Life and Career Metrics
 
-### Rules
+List the things you will measure regularly in your life and career. You only need to list the metric topics; do not include personal numbers.
 
-List topics only. No need to share numbers.
+Your list must include learning or skills, output or proof, health or energy, time or focus, and money or finance.
 
-### Must Include
-
-* Learning / skill
-* Output / proof
-* Health / energy
-* Time / focus
-* Money / finance (personal or business)
-
-### Example
-
-* Learning hours per week
-* Deep work sessions per week
-* Projects shipped / documented
-* Steps / workouts
-* Sleep hours
-* Spending tracker
-
-## My Metrics
+### My Metrics
 
 * Hours spent learning DevOps and Cloud
 * Labs completed
@@ -258,43 +165,21 @@ List topics only. No need to share numbers.
 
 ---
 
-# Assignment 7. Brain Dump + 5-Month System Plan
+## Task 7 — Brain Dump and Five-Month System Plan
 
-## Step 1: Brain Dump (Private)
+### Step 1 — Brain Dump (Private)
 
-Do a brain dump of everything in your mind into a notebook.
+Do a private brain dump in a notebook, notes app, or document. Include everything currently on your mind, such as tasks, bills, worries, goals, pending messages, ideas, and responsibilities.
 
-Examples:
+**Did you create a brain dump?**
 
-* Bills
-* Tasks
-* Worries
-* Goals
-* Pending messages
-* Ideas
-* Responsibilities
-
-### Did You Do It?
-
-**Yes / No**
-
-Answer: Yes
-
+```text
 Yes
+```
 
 ---
 
-## Step 2: Your 5-Month Routine + Focus Blocks
-
-Create a simple plan you can realistically follow for the next 5 months.
-
-### Weekly Routine
-
-Example:
-
-* Mon–Thu: 60 min deep work
-* Sat: DMI session
-* Sun: Weekly review
+### Step 2 — My Five-Month Routine and Focus Blocks
 
 #### My Weekly Routine
 
@@ -316,11 +201,7 @@ Organize notes and documentation
 
 
 
----
-
-### Focus Blocks
-
-#### When Will You Do DMI Work? (Days + Time)
+#### When Will I Complete My DMI Work? (Include Days and Time)
 
 Focus Blocks
 When Will You Do DMI Work?
@@ -328,63 +209,70 @@ Monday–Friday: 10:00 AM–1:00 PM
 Saturday: 12:00 PM–8:00 PM
 Sunday: 7:00 PM–9:00 PM
 
-#### How Many Sessions Per Week?
+#### How Many DMI Work Sessions Will I Complete Each Week?
 
 7 focused learning sessions per week
 5 weekday sessions
 2 longer weekend sessions
 
 
----
-
-### Distraction Rules
-
-Examples:
-
-* Phone rules
-* Social media rules
-* Environment setup
-
 #### My Distraction Rules
 
-Keep my phone on Do Not Disturb during study sessions.
-No Facebook, TikTok, or YouTube unless needed for learning.
-Study with only the required applications open.
-Maintain a clean and organized workspace.
-Follow the 60–90 minute deep work rule with short breaks.
-Review progress every Sunday and prepare goals for the following week.
-
+- Keep my phone on Do Not Disturb during study sessions.
+- Avoid Facebook, TikTok, and YouTube unless they are needed for learning.
+- Keep only the required applications open and maintain an organized workspace.
+- Work in 60–90 minute deep-work blocks with short breaks.
+- Review progress every Sunday and prepare goals for the following week.
 
 ---
 
-# Reflection – Week 1
+## Task 8 — Week 1 Reflection and Proof of Work
 
-### Biggest insight I got about myself this week
+### Biggest Insight I Got About Myself This Week
 
 I realized I work best with structure. In IT Support, my work was driven by incoming tickets, but now I need to create my own routine and motivation. Having a fixed schedule helps me stay focused without relying on external deadlines.
 
-### My biggest weakness/loop I noticed
+### My Biggest Weakness or Loop I Noticed
 
 I tend to spend too much time researching before taking action. While reading feels productive, it often becomes a way to avoid making mistakes instead of learning through experience.
 
-### One system I will implement from this week (exact habit + time)
+### One System I Will Implement From This Week (Exact Habit and Time)
 
 Starting this week, I'll study in three 40-minute sessions at 10:00 AM, 1:00 PM, and 4:00 PM. During each session, I'll keep only the tabs I need open to avoid distractions and stay focused.
 
-### LinkedIn Post
+### Proof of Work
 
-Paste your LinkedIn post link here:
+**LinkedIn Post URL**
 
 https://www.linkedin.com/posts/ronnie-santos-131856184_join-the-dmi-devops-micro-internship-share-7478318024186503168-ViCC/
 
+**Blog / Medium / Public Article URL**
+
+https://medium.com/@santosronnie1991/from-it-support-professional-to-devops-engineer-51de2c9815b8
+
 ---
 
-## 10. Proof of Work
+## Completion Checklist
 
 - LinkedIn Post URL: **https://www.linkedin.com/posts/ronnie-santos-131856184_join-the-dmi-devops-micro-internship-share-7478318024186503168-ViCC/**  
 - Blog / Medium : **https://medium.com/@santosronnie1991/from-it-support-professional-to-devops-engineer-51de2c9815b8**  
+* [x] All eight tasks have written responses or proof links.
+* [x] Written answers are specific and professionally worded.
+* [x] Task 1 has at least 50 words.
+* [x] Task 2 includes three truths and evidence from my life.
+* [ ] Task 3 includes a 300+ word article written in past tense.
+* [x] My Task 3 article is published on an approved public platform.
+* [ ] I added the correct DMI credit note and replaced `YOUR-GITHUB-USERNAME`.
+* [ ] I published a LinkedIn post sharing my Task 3 article.
+* [x] Task 5 has 10 non-fiction books with titles and authors.
+* [x] Task 6 includes learning, output, health, time, and finance metrics.
+* [x] I completed the private brain dump for Task 7.
+* [x] I added a realistic five-month routine, DMI focus blocks, and distraction rules.
+* [x] I completed the Week 1 reflection.
+* [x] I added both the LinkedIn post and public article URLs under Task 8.
 
 ---
+
 
 ## 📌 About DMI & CloudAdvisory
 
@@ -405,4 +293,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track*

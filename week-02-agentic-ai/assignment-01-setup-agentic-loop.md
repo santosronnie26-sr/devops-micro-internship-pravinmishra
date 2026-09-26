@@ -1,6 +1,6 @@
 # Assignment 1 — Your First Agentic Session
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -62,6 +62,21 @@ Interact with Claude Code and observe how it performs the Agentic Loop (Gather �
 
 ![Claude's read files](./screenshots/SS-A1/W2-A1-SS-03-5.png)
 
+# Task 4 — Share Your First Agentic AI Achievement
+
+## Goal
+
+Share your completed Agentic AI session and DMI Leaderboard progress on LinkedIn.
+
+### Evidence
+
+#### Screenshot 6 — Published LinkedIn post showing the caption and shared DMI Leaderboard progress
+
+Add your screenshot here.
+
+---
+
+
 # Submission Instructions
 
 - Add all required screenshots in your GitHub repository submission
@@ -109,4 +124,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*

@@ -1,6 +1,6 @@
 # Assignment 1 — Create Your Jira Account & Setup Profile
 
-Part of the DevOps Micro Internship (DMI) Cohort 3 with Agentic AI
+Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ---
 
@@ -82,6 +82,20 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 
 ---
 
+# Task 5 — Share Your Jira Setup Progress on WhatsApp Status
+
+## Goal
+
+Share your Jira setup progress on WhatsApp Status, including your generated DMI leaderboard progress link.
+
+### Evidence
+
+#### Screenshot 6 — Published WhatsApp Status showing your Jira setup message and generated DMI leaderboard progress link
+
+Add your screenshot here.
+
+---
+
 # Submission Instructions
 
 - Add all five required screenshots, unless separate email verification was not required
@@ -101,6 +115,7 @@ Locate the project list and open a project's Board or Backlog, and view Project 
 - [✓] No Jira issues created
 - [✓] Full Name visible in required screenshots
 - [✓] No sensitive data exposed
+- [ ] Task 5: WhatsApp Status shared with the Jira setup message and generated DMI leaderboard progress link (Screenshot 6)
 
 ---
 
@@ -124,4 +139,4 @@ It helps learners build strong DevOps foundations with hands-on experience.
 
 ---
 
-*This submission is part of DevOps Micro Internship (DMI) Cohort 3 — Agentic AI Track.*
+*This submission is part of DevOps Micro Internship (DMI) — Agentic AI Track.*
