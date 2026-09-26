@@ -240,37 +240,37 @@ Add a screenshot of the terminal showing successful `terraform destroy` completi
 
 # Completion Checklist
 
-- [ ] Installed Terraform and verified it using `terraform version`
-- [ ] Installed Azure CLI and verified it using `az version`
-- [ ] Signed in to Azure and confirmed the correct subscription
-- [ ] Installed and enabled the HashiCorp Terraform extension in VS Code
-- [ ] Created the `terraform-react-azure` project
-- [ ] Created `main.tf`
-- [ ] Defined the Terraform and AzureRM provider configuration
-- [ ] Defined the resource group
-- [ ] Defined the virtual network and subnet
-- [ ] Defined the Network Security Group
-- [ ] Configured SSH and HTTP rules
-- [ ] Defined the public IP and network interface
-- [ ] Created `cloud-init.sh`
-- [ ] Reviewed the React application repository instructions
-- [ ] Created the complete deployment workflow inside `cloud-init.sh`
-- [ ] Defined the Linux virtual machine
-- [ ] Connected `cloud-init.sh` to the VM using `custom_data`
-- [ ] Used `file()` and `base64encode()` correctly
-- [ ] Added the Terraform public IP output
-- [ ] Completed `terraform init` successfully
-- [ ] Reviewed the Terraform execution plan
-- [ ] Completed `terraform apply` successfully
-- [ ] Recorded the VM public IP
-- [ ] Connected to the VM through SSH
-- [ ] Verified that the automated deployment completed successfully
-- [ ] Verified that Nginx is running
-- [ ] Verified the React application through the browser
-- [ ] Completed `terraform destroy` successfully
-- [ ] Captured all 15 required screenshots
-- [ ] Confirmed that my full name is visible in the required screenshots
-- [ ] Checked that no passwords, keys, account IDs, access tokens, or other sensitive information are exposed
+- [✓] Installed Terraform and verified it using `terraform version`
+- [✓] Installed Azure CLI and verified it using `az version`
+- [✓] Signed in to Azure and confirmed the correct subscription
+- [✓] Installed and enabled the HashiCorp Terraform extension in VS Code
+- [✓] Created the `terraform-react-azure` project
+- [✓] Created `main.tf`
+- [✓] Defined the Terraform and AzureRM provider configuration
+- [✓] Defined the resource group
+- [✓] Defined the virtual network and subnet
+- [✓] Defined the Network Security Group
+- [✓] Configured SSH and HTTP rules
+- [✓] Defined the public IP and network interface
+- [✓] Created `cloud-init.sh`
+- [✓] Reviewed the React application repository instructions
+- [✓] Created the complete deployment workflow inside `cloud-init.sh`
+- [✓] Defined the Linux virtual machine
+- [✓] Connected `cloud-init.sh` to the VM using `custom_data`
+- [✓] Used `file()` and `base64encode()` correctly
+- [✓] Added the Terraform public IP output
+- [✓] Completed `terraform init` successfully
+- [✓] Reviewed the Terraform execution plan
+- [✓] Completed `terraform apply` successfully
+- [✓] Recorded the VM public IP
+- [✓] Connected to the VM through SSH
+- [✓] Verified that the automated deployment completed successfully
+- [✓] Verified that Nginx is running
+- [✓] Verified the React application through the browser
+- [✓] Completed `terraform destroy` successfully
+- [✓] Captured all 15 required screenshots
+- [✓] Confirmed that my full name is visible in the required screenshots
+- [✓] Checked that no passwords, keys, account IDs, access tokens, or other sensitive information are exposed
 
 ---
 
