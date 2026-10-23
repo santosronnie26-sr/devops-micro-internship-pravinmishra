@@ -80,7 +80,7 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 ## Goal
 
-Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private DB Subnet Group and `ha-db-sg`.
+Launch a private, Multi-AZ RDS database (MySQL) using the private DB Subnet Group and `ha-db-sg`.
 
 ### Evidence
 
