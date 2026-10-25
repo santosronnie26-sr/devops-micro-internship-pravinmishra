@@ -28,7 +28,7 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-1.png)
 
 ---
 
@@ -40,7 +40,7 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-2.png)
 
 ---
 
@@ -58,7 +58,7 @@ The output must show the running `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-3.png)
 
 ---
 
@@ -67,12 +67,12 @@ Add your screenshot here.
 Add a browser screenshot showing the Nginx Welcome Page at:
 
 ```text
-http://<YOUR-VM-PUBLIC-IP>
+http://18.143.117.130/
 ```
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-4.png)
 
 ---
 
@@ -92,7 +92,7 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-5.png)
 
 ---
 
@@ -106,7 +106,7 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-6.png)
 
 ---
 
@@ -120,7 +120,7 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-7.png)
 
 ---
 
@@ -134,7 +134,7 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-8.png)
 
 ---
 
@@ -156,7 +156,7 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-9.png)
 
 ---
 
@@ -174,7 +174,7 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-10.png)
 
 ---
 
@@ -188,7 +188,7 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-11.png)
 
 ---
 
@@ -202,7 +202,7 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-12.png)
 
 ---
 
@@ -216,7 +216,7 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-13.png)
 
 ---
 
@@ -224,7 +224,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-14.png)
 
 ---
 
@@ -238,7 +238,7 @@ The output must include:
 Expected result: frontend cannot reach db
 ```
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-15.png).
 
 ---
 
@@ -252,7 +252,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-16.png).
 
 ---
 
@@ -274,7 +274,7 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-17.png).
 
 ---
 
@@ -292,7 +292,7 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-18.png).
 
 ---
 
@@ -306,7 +306,7 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-19.png).
 
 ---
 
@@ -319,7 +319,7 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A3/W11-A3-SS-20.png).
 
 ---
 
@@ -332,7 +332,17 @@ Write a short note explaining:
 - Why the frontend could not access the database in Task 3
 - The difference between bridge mode and host network mode
 
-Write your note here.
+- Default bridge networking**
+When a container is started without `--network`, Docker attaches it to the default `bridge` network. The container gets a private IP and can reach the internet, but it is not reachable from outside unless a port is published. In Task 1, `-p 80:80` mapped the EC2 instance's port 80 to port 80 in the `myweb` container, which made the Nginx page available at the instance's public IP. Containers on the default bridge cannot resolve each other by name.
+
+- Container-name communication on a custom bridge network**
+A user-defined bridge network such as `mynetwork` includes Docker's built-in DNS. In Task 2, `client` reached `web` with `wget -qO- http://web`, and Docker resolved the name `web` to its IP (`172.18.0.2`). Neither container published a port, so they could reach each other but could not be reached from outside the instance. Using names avoids hardcoding container IPs, which can change when a container is recreated.
+
+- Why the frontend could not access the database in Task 3**
+`frontend` was attached only to `frontend-network`, and `db` only to `backend-network`. The two containers shared no network, so the name `db` did not resolve from `frontend` (`nc: bad address 'db'`). `backend` was connected to both networks, with a separate IP on each (`172.19.0.2` and `172.20.0.3`), which made it the only path between the tiers. Only `frontend` published port 80, so `backend` and `db` stayed internal.
+
+- Difference between bridge mode and host network mode**
+In bridge mode, each container has its own isolated network namespace and private IP, and outside access requires a port mapping (`-p`). In host mode (`--network host`), the container shares the host's network stack directly. In Task 4, `fastapp` had no port mapping, `docker ps` showed an empty PORTS column, and Nginx was still reachable on the instance's port 80. Host mode removes the NAT layer, but it also removes network isolation, and the host port must be free before the container starts.
 
 ---
 
@@ -372,24 +382,24 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Completed on a Linux VM or EC2 instance
-- [ ] Docker Engine is running
-- [ ] HTTP port 80 is allowed in the VM firewall or cloud security rules
-- [ ] Default bridge networking verified
-- [ ] Custom bridge network created
-- [ ] Container-name communication verified
-- [ ] `frontend-network` and `backend-network` created
-- [ ] Frontend-to-backend communication verified
-- [ ] Backend-to-database communication verified
-- [ ] Frontend-to-database isolation verified
-- [ ] Only the frontend published port 80 in Task 3
-- [ ] Host network mode verified
-- [ ] All required screenshots included
-- [ ] Networking Notes completed
+- [✓] Completed on a Linux VM or EC2 instance
+- [✓] Docker Engine is running
+- [✓] HTTP port 80 is allowed in the VM firewall or cloud security rules
+- [✓] Default bridge networking verified
+- [✓] Custom bridge network created
+- [✓] Container-name communication verified
+- [✓] `frontend-network` and `backend-network` created
+- [✓] Frontend-to-backend communication verified
+- [✓] Backend-to-database communication verified
+- [✓] Frontend-to-database isolation verified
+- [✓] Only the frontend published port 80 in Task 3
+- [✓] Host network mode verified
+- [✓] All required screenshots included
+- [✓] Networking Notes completed
 - [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in terminal screenshots
-- [ ] Browser screenshots include full-name captions
-- [ ] No sensitive information exposed
+- [✓] Full name visible in terminal screenshots
+- [✓] Browser screenshots include full-name captions
+- [✓] No sensitive information exposed
 
 ---
 
