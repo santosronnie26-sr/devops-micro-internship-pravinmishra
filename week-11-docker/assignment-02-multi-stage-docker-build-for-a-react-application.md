@@ -30,7 +30,7 @@ cat .dockerignore
 
 The file must exclude `node_modules`, `build`, and `.env`.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A2/W11-A2-SS-1.png)
 
 ---
 
@@ -46,7 +46,7 @@ Create a baseline single-stage Docker image and run the application on port 3000
 
 Add a screenshot showing the completed `Dockerfile.single`.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A2/W11-A2-SS-2.png)
 
 ---
 
@@ -60,7 +60,7 @@ http://localhost:3000
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A2/W11-A2-SS-3.png)
 
 ---
 
@@ -76,7 +76,7 @@ Create an optimized multi-stage Docker image with separate builder and Nginx run
 
 Add a screenshot showing the completed multi-stage `Dockerfile`.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A2/W11-A2-SS-4.png)
 
 ---
 
@@ -90,7 +90,7 @@ http://localhost
 
 Ensure that your full name is visible in the application.
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A2/W11-A2-SS-5.png)
 
 ---
 
@@ -117,7 +117,7 @@ react-single:latest
 react-multistage:latest
 ```
 
-Add your screenshot here.
+![ss](./screenshots/W11-SS-A2/W11-A2-SS-6.png)
 
 ---
 
@@ -156,7 +156,7 @@ Write a short analysis of 5–8 lines covering:
 - How smaller images improve image pull and deployment speed
 - One Docker build-caching optimization you used
 
-Write your analysis here.
+The single-stage image (react-single) was 505 MB, while the multi-stage image (react-multistage) was only 26.6 MB, a 94.7% reduction in content size. The single-stage image carries the full Node.js runtime, npm, 1,342 installed packages, and the source code, even though none of these are needed to serve the finished app. The multi-stage build leaves all of that behind in the builder stage and ships only Nginx plus the compiled static files. This shrinks the attack surface: the npm audit during the build flagged 65 vulnerabilities in the dependencies, and none of those packages exist in the final runtime image, so there are fewer components to exploit or patch. A smaller image also means less data to transfer from a registry, so deployments and scale-out events start faster. For build caching, I copied package*.json and ran npm ci before COPY . ., so Docker reuses the dependency layer when only the source code changes.
 
 ---
 
@@ -176,6 +176,7 @@ You may choose to:
 - Compare the resulting image size with your original multi-stage image
 
 Screenshots are optional.
+![ss](./screenshots/W11-SS-A2/W11-A2-SS-7.png)
 
 ---
 
@@ -214,18 +215,18 @@ Add a screenshot of the published LinkedIn post here.
 
 # Completion Checklist
 
-- [ ] Assignment completed locally
-- [ ] `.dockerignore` created and verified (Screenshot 1)
-- [ ] `Dockerfile.single` created (Screenshot 2)
-- [ ] Single-stage container verified in the browser (Screenshot 3)
-- [ ] Multi-stage `Dockerfile` created (Screenshot 4)
-- [ ] Multi-stage container verified in the browser (Screenshot 5)
-- [ ] Both Docker image sizes captured (Screenshot 6)
-- [ ] Percentage reduction calculated
-- [ ] Optimization analysis completed
+- [✓] Assignment completed locally
+- [✓] `.dockerignore` created and verified (Screenshot 1)
+- [✓] `Dockerfile.single` created (Screenshot 2)
+- [✓] Single-stage container verified in the browser (Screenshot 3)
+- [✓] Multi-stage `Dockerfile` created (Screenshot 4)
+- [✓] Multi-stage container verified in the browser (Screenshot 5)
+- [✓] Both Docker image sizes captured (Screenshot 6)
+- [✓] Percentage reduction calculated
+- [✓] Optimization analysis completed
 - [ ] LinkedIn post URL and screenshot included
-- [ ] Full name visible in all required screenshots
-- [ ] No sensitive information exposed
+- [✓] Full name visible in all required screenshots
+- [✓] No sensitive information exposed
 
 ---
 
